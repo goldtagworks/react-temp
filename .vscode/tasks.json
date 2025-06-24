@@ -1,0 +1,127 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "vscode:debug",
+            "group": {
+                "kind": "test"
+            },
+            "problemMatcher": [],
+            "dependsOn": [],
+            "label": "vscode:debug",
+            "detail": "vs code 디버그"
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "label": "build",
+            "detail": "프로젝트 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "clean",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project clean",
+            "detail": "프로젝트 정리"
+        },
+        {
+            "type": "npm",
+            "script": "install",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project install",
+            "detail": "프로젝트 설치"
+        },
+        {
+            "type": "npm",
+            "script": "build:api",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project build: api",
+            "detail": "프로젝트 API 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "build:popup",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project build: popup",
+            "detail": "프로젝트 popup 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "build:cache:win",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project build: cache windows",
+            "detail": "프로젝트 cache windows 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "build:cache:mac",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project build: cache mac",
+            "detail": "프로젝트 cache mac 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "build:drm:win",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project build: drm windows",
+            "detail": "프로젝트 drm windows 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "build:drm:mac",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project build: drm mac",
+            "detail": "프로젝트 drm mac 빌드"
+        },
+        {
+            "type": "npm",
+            "script": "dev:popup",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project dev: popup",
+            "detail": "프로젝트 popup 개발"
+        },
+        {
+            "type": "npm",
+            "script": "dev:ui-lib",
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [],
+            "label": "project dev: ui-lib",
+            "detail": "프로젝트 ui-lib 개발"
+        }
+    ]
+}
